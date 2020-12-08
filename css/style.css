@@ -1,0 +1,606 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+body{
+    font-family: 'Fira Sans', sans-serif;
+    overflow-x: hidden;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height:6em;
+}
+
+.logo{
+    margin-left: 3em;
+}
+
+.my-nav{
+    width: max-content;
+}
+
+.mob-nav{
+    display: none;
+    width: 8em;
+    margin-left: -2.5em;
+}
+
+.blue-nav{
+    display: none;
+}
+
+.my-nav ul{
+    display: flex;
+    list-style: none;
+    margin-left: 2.875em;
+}
+
+.my-nav li:nth-child(1){
+    margin-right: 3.6875em;
+}
+
+.my-nav li:nth-child(2){
+    margin-right: 3.625em;
+}
+
+.my-nav li:nth-child(3){
+    margin-right: 3.6875em;
+}
+
+.my-nav li:nth-child(4){
+    margin-right: 3.25em;
+}
+
+.first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first input{
+    width: 28.75em;
+    height: 2.625em;
+    border: none;
+    opacity: 1;
+    background-color: #F4F4F4;
+    padding-right: 5em;
+    font-size: 11px;
+    color: #ACACAC;
+}
+
+#search-logo{
+    margin-left: -2.2em;
+}
+
+.second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav-circle{
+    width: 1.97875em;
+    height: 1.97875em;
+    margin-top: 0.080em;
+    margin-left: 2.45em;
+    background-color: #1261A2;
+}
+
+#basket{
+    margin-left: -1.5em;
+}
+
+.para{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 0.1em 1em auto 1.70375em;
+    width: auto;
+}
+
+.para p{
+    margin-top: 0.9em;
+    margin-left: 0.4em;
+}
+
+
+.bac-img{
+    width: 100%;
+    height: auto;
+}
+
+.bac-img img{
+    width: 100%;
+    height: auto;
+}
+
+.blue-div{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    width: 100%;
+    height: 3em;
+    background-color: #084D74;
+}
+
+
+.blue-div p{
+    font-size: 11px;
+    color: white;
+}
+
+.sec-blue{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 100%;
+    height: auto;
+    background-color: #0065AB;
+    opacity: 1;
+}
+
+.grid-q{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5em;
+}
+
+.p-tag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-tag p{
+    margin: 1em;
+    font-size: 14px;
+}
+
+.rounded-circlee{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    background-color: #2b85c5;
+    border-radius: 50% 50%;
+}
+
+.section-div{
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.med-for-you{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 50%;
+    height: 100%;
+}
+
+.med-for-you p:nth-child(1){
+    margin: 3.25em auto 0.5em 8.9375em;
+    font-size: 11px;
+}
+
+.med-for-you p:nth-child(2){
+    margin: 0em auto 0.875em 3.6875em;
+    font-size: 26px;
+}
+
+.med-for-you p:nth-child(3){
+    margin: 0em auto 0.5em 7.7375em;
+    font-size: 13px;
+    text-decoration: underline;
+}
+
+.arrows{
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    height: auto;
+}
+
+.rounded-circle{
+    display: flex;
+    justify-content: center;
+    border: 1px solid;
+    border-color: #707070;
+    width: 4em;
+    height: 4em;
+    
+}
+
+.circles{
+    display: flex;
+    margin: 4.5625em 4em auto auto;
+}
+
+#onee{
+    margin-right: 0.4375em;
+}
+
+.products{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    width: 100%;
+    height: auto;
+    margin-left: 5.75em;
+    margin-top: 3.375em;
+}
+
+.grid-pr{
+    margin-bottom: 2.785625em;
+}
+
+.health-concern{
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: #F4F4F4;
+}
+
+.health-heading{
+    height: 100%;
+    width: 30%;    
+}
+
+
+.grid-layout{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    height: auto;
+    width: 75%;
+    margin: 2em 0em 1.75em 0em;
+}
+
+.health-heading p:nth-child(1){
+    font-size: 11px;
+    color: #242424;
+    margin: 4.4375em auto auto 8.6875em;
+}
+
+.health-heading p:nth-child(2){
+    font-size: 26px;
+    color: #0065AB;
+    margin-left: 3.574em;
+}
+
+.health-heading p:nth-child(3){
+    font-size: 16px;
+    color: #242424;
+    margin-left: 5.574em;
+}
+
+.grid-items{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    border: 0.2px #8D8D8D;
+    height: max-content;
+    margin: 0px 0.9375em 1em 0em;
+}
+
+.grid-items img{
+    margin: 30px 59.78px 26.46px 56px;
+}
+
+.grid-items p{
+    margin: 0px 23px 31px 24px;
+}
+
+.grid-layout div:nth-child(1){
+    margin: auto 0.9375em 1em auto;
+}
+
+.grid-layout div:nth-child(2){
+    margin: auto 0.9375em 1em auto;
+}
+
+.grid-layout div:nth-child(3){
+    margin: auto 0.9375em 1em auto;
+}
+
+.grid-layout div:nth-child(4){
+    margin: auto 0.9375em 1em auto;
+}
+
+.grid-layout div:nth-child(5){
+    margin: auto 0.9375em 1em auto;
+}
+
+.grid-layout div:nth-child(6){
+    margin: auto 0.9375em 1em auto;
+}
+
+.grid-layout div:nth-child(7){
+    margin: auto 0.9375em 1em auto;
+}
+
+.grid-layout div:nth-child(8){
+    margin: auto 0.9375em 1em auto;
+}
+
+
+
+@media screen and (max-width: 1250px) {
+    .products{
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+    }
+  }
+
+  @media screen and (max-width: 890px) {
+    .products{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .grid-layout{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .my-nav{
+        display: none;
+    }
+    .mob-nav{
+        display: block;
+    }
+    .first input{
+        margin-left: 1em;
+    }
+    .sec-blue{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+  }
+
+  @media screen and (max-width: 580px) {
+    .products{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .grid-layout{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .first input{
+        width: 15em;
+        margin-left: 0.8em;
+    }
+    .para p{
+        display: none;
+    }
+    .logo{
+        margin-left: 1.1em;
+    }
+    #account-logo{
+        margin-top: 0.5em;
+    }
+    .dropdown{
+        display: none;
+    }
+    .blue-nav{
+        display: block;
+    }
+    .sec-blue{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .health-concern{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 0px;
+    }
+
+    .our-top-products{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .last-grid{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .last-grid{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+    }
+
+    .last-grid div:nth-child(1){
+        margin-top: 3em;
+    }
+
+  }
+
+
+.our-top-products{
+    display: flex;
+    background-color: white;
+    width: 100%;
+    height: auto;
+}
+
+.grid-pr2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0.5em;
+}
+
+.products2{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    width: 100%;
+    height: auto;
+    margin-left: 5.75em;
+    margin-top: 3.375em;
+}
+
+.products2 div:nth-child(1){
+    margin-right: 5em;
+}
+
+.products2 div:nth-child(2){
+    margin-right: 5em;
+}
+
+.products2 div:nth-child(3){
+    margin-right: 5em;
+}
+
+.products2 div:nth-child(4){
+    margin-right: 5em;
+}
+
+.mainn{
+    width: auto;
+    height: auto;
+    background-color: #F4F4F4;
+}
+
+.arrowss{
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+    height: auto;
+    background-color: blueviolet;
+}
+
+.circless{
+    display: flex;
+    margin-left: 7.375em;
+    margin-top: 3em;
+}
+
+.float{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.last-div{
+    display: flex;
+    width: 200px;
+    height: 50px;
+}
+
+.last-grid{
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: #D90010;
+}
+
+.grid-set{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-grow: 1;
+    flex-basis: 0;
+    color: #FFFFFF;
+}
+
+.grid-set p:nth-child(1){
+    margin-left: 4em;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+
+.grid-set p:nth-child(2){
+    margin-left: 1.5em;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.grid-set p:nth-child(3){
+    margin-left: 2.2em;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.grid-set p:nth-child(4){
+    margin-left: 3em;
+    text-decoration: underline;
+    font-size: 13px;
+}
+
+.grid-set1{
+    margin: 4em auto 1em 5em;
+    
+}
+
+.footer{
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: #0065AB;
+}
+
+.flexes{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    color: #FFFFFF;
+    font-size: 13px;
+    margin-top: 5em;
+    padding: 3em;
+    width: 25%;
+}
+
+.flexes p:nth-child(1){
+    font-size: 15px !important;
+    font-weight: bold;
+}
+
+.linkss{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3em;
+}
+
+.circle{
+    display: flex;
+}
+
+#c{
+    background-color: #004F86;
+}
+
+#go{
+    font-size: 10px;
+    opacity: 57%;
+    margin-top: 1.355em !important;
+}
+
